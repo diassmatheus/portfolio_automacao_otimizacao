@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Automação e Otimização · Portfolio Matheus Dias</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Active
+  * Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename"><b>Automação e Otimização</b></h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#introducao" class="nav-link scrollto">Introdução</a></li>
+          <li><a href="#objetivos" class="nav-link scrollto">Objetivos</a></li>
+          <li><a href="#cenario" class="nav-link scrollto">Cenário</a></li>
+          <li><a href="#solucao" class="nav-link scrollto">Solução</a></li>
+          <li><a href="#beneficios" class="nav-link scrollto">Benefícios</a></li>
+          <li><a href="#conclusao" class="nav-link scrollto">Conclusão</a></li>
+          <li><a href="https://diassmatheus.github.io/">Portfolio completo</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- About Section -->
+    <section id="introducao" class="about section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-5 mb-5 mb-lg-0 order-lg-2" data-aos="fade-up" data-aos-delay="400">
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "breakpoints": {
+                    "320": {
+                      "slidesPerView": 1,
+                      "spaceBetween": 40
+                    },
+                    "1200": {
+                      "slidesPerView": 1,
+                      "spaceBetween": 1
+                    }
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/capa.jpg" alt="Image" class="img-fluid">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="col-lg-7 order-lg-1">
+            <h1 class="mb-4" data-aos="fade-up">
+              Roteirização otimizada de visitas B2B com Selenium e Programação Linear
+            </h1>
+            <p data-aos="fade-up">
+              Imagine uma empresa que presta serviços para grandes empresas, incluindo instituições financeiras, 
+              e precisa que sua força comercial visite, em um único dia, os principais clientes em São Paulo.
+              <br><br>
+              O <b>desafio</b>: encontrar a ordem ideal de visitas para economizar tempo de deslocamento — e, 
+              consequentemente, aumentar o número de clientes atendidos no mesmo dia.
+            </p>
+            <p>
+              <a href="https://github.com/diassmatheus" class="btn-get-started">Acessar o código no GitHub</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- About 2 Section -->
+    <section id="objetivos" class="about-2 section light-background">
+
+      <div class="container">
+        <div class="content">
+          <div class="row justify-content-center">
+
+            <div class="offset-md-2 offset-lg-2 col-sm-12 col-md-12 col-lg-12 col-xl-12" data-aos="fade-up">
+              <div class="px-3">
+                <h2 class="content-title text-start">
+                  Objetivos do projeto
+                </h2>
+                  <ul>
+                    <i class="bi bi-check-square"> Coletar automaticamente dados de tempo de trajeto entre os clientes através do Google Maps.</i><br>
+                    <i class="bi bi-check-square"> Utilizar otimização matemática (Problema do Caixeiro Viajante - TSP) para calcular a rota mais rápida de visitas.</i><br>
+                    <i class="bi bi-check-square"> Mostrar visualmente a rota final no próprio Google Maps, pronta para ser utilizada pelo time de vendas.</i><br>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About 2 Section -->
+
+    <!-- Services Section -->
+    <section id="cenario" class="services section light-background">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11">
+            <h3 class="content-title text-start">
+              Cenário
+            </h3>
+            <spam>Foram escolhidos endereços reais de grandes players do mercado financeiro de São Paulo para simular clientes estratégicos:</spam><br><br><br>
+          </div>
+        </div>
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-4">
+            <div class="services-item" data-aos="fade-up">
+              <div class="services-icon">
+                <img src="assets/img/start.png" alt="" class="img-fluid" style="max-height:60px;">
+              </div>
+              <div>
+                <h3>Ponto de partida (marco zero da cidade)</h3>
+                <p>Praça da Sé, s/n – Centro Histórico</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="services-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="services-icon">
+                <img src="assets/img/itau.png" alt="" class="img-fluid" style="max-height:60px;">
+              </div>
+              <div>
+                <h3>Itaú Unibanco</h3>
+                <p>Praça Alfredo Egydio de Souza Aranha, 100 – Jabaquara</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="services-icon">
+                <img src="assets/img/bradesco.png" alt="" class="img-fluid" style="max-height:60px;">
+              </div>
+              <div>
+                <h3>Bradesco</h3>
+                <p>Prédio Prata Cidade de Deus, s/n – Vila Yara, Osasco</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="services-icon">
+                <img src="assets/img/santander.png" alt="" class="img-fluid" style="max-height:60px;">
+              </div>
+              <div>
+                <h3>Santander</h3>
+                <p>Av. Juscelino Kubitschek, 2235 – Vila Olímpia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="services-icon">
+                <img src="assets/img/nubank.png" alt="" class="img-fluid" style="max-height:60px;">
+              </div>
+              <div>
+                <h3>Nubank</h3>
+                <p>Rua Capote Valente, 39 – Pinheiros</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Services Section -->
+
+    <!-- Pricing Section -->
+    <section id="solucao" class="pricing section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h3>Como a solução funciona</h3>
+      </div>
+
+      <div class="container mt-5" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="ratio ratio-16x9 mt-3">
+              <iframe
+                src="https://www.youtube.com/embed/j0NLLxXh2LU?si=_6QRRM_6AgCvKnUd"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Coleta de dados em tempo real</h3>
+              <ul>
+                <i class="bi bi-check-square"> O script abre o Google Maps com Selenium WebDriver.</i><br><br>
+                <i class="bi bi-check-square"> Para cada par de endereços, extrai automaticamente o tempo de deslocamento em minutos, simulando a condição real de trânsito para o modal “Carro”.</i>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-item">
+              <h3>Modelagem matemática</h3>
+              <ul>
+                <i class="bi bi-check-square"> Os dados alimentam um modelo de otimização de rotas baseado no Problema do Caixeiro Viajante (TSP), resolvido com a biblioteca PuLP.</i><br><br>
+                <i class="bi bi-check-square"> O modelo impõe que cada cliente seja visitado uma única vez, retornando ao ponto de partida.</i><br><br>
+                <i class="bi bi-check-square"> A função objetivo minimiza o tempo total de deslocamento, garantindo a rota mais eficiente.</i>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Apresentação visual</h3>
+              <ul>
+                <i class="bi bi-check-square"> Ao final, a solução abre novamente o Google Maps e insere a rota completa e otimizada, permitindo que a equipe de vendas veja no mapa a sequência ideal de visitas.</i>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- About 2 Section -->
+    <section id="beneficios" class="about-2 section light-background">
+
+      <div class="container">
+        <div class="content">
+          <div class="row justify-content-center">
+            <div class="offset-md-2 offset-lg-2 col-sm-12 col-md-12 col-lg-12 col-xl-12" data-aos="fade-up">
+              <div class="px-3">
+                <h2 class="content-title text-start">
+                  Benefícios para o Negócio
+                </h2>
+                  <ul>
+                    <i class="bi bi-check-square"> Redução de custos com combustível e horas extras.</i><br>
+                    <i class="bi bi-check-square"> Aumento de produtividade, permitindo mais visitas em menos tempo.</i><br>
+                    <i class="bi bi-check-square"> Tomada de decisão baseada em dados reais, já que os tempos de deslocamento vêm diretamente do Google Maps.</i><br>
+                    <i class="bi bi-check-square"> Solução flexível e escalável, podendo ser adaptada para outras cidades, novos clientes ou outros modais de transporte.</i><br>
+                  </ul>
+              </div><br><br>
+              <div class="px-3">
+                <h2 class="content-title text-start">
+                  Diferenciais Técnicos
+                </h2>
+                  <ul>
+                    <i class="bi bi-check-square"> Automação com Selenium: interação dinâmica com a interface do Google Maps, sem necessidade de APIs pagas.</i><br>
+                    <i class="bi bi-check-square"> Otimização com PuLP: aplicação de programação inteira para resolver um problema clássico de logística.</i><br>
+                    <i class="bi bi-check-square"> Integração ponta a ponta: do scraping de dados em tempo real à visualização final da rota otimizada.</i><br>
+                  </ul><br><br>
+              <div class="px-3">
+                <h2 class="content-title text-start">
+                  Próximos Passos
+                </h2>
+                  <ul>
+                    <i class="bi bi-check-square"> Integrar com bancos de dados de clientes reais.</i><br>
+                    <i class="bi bi-check-square"> Adicionar janelas de horário (time windows) para visitas com agendamento fixo.</i><br>
+                    <i class="bi bi-check-square"> Exportar rotas para aplicativos de navegação utilizados pela equipe de campo.</i><br>
+                  </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About 2 Section -->
+
+    <!-- Conclusao Section -->
+    <section id="conclusao" class="about-2 section light-background">
+
+      <div class="container">
+        <div class="content">
+          <div class="row justify-content-center">
+    
+            <div class="offset-md-0 offset-lg-0 col-sm-11 col-md-11 col-lg-11 col-xl-11" data-aos="fade-up">
+              <div class="px-3">
+                <h2 class="content-title text-start" style="font-size: 28px;">
+                  Conclusão
+                </h2>
+                <p>
+                  Este projeto mostra como dados em tempo real e otimização matemática podem se unir 
+                  para resolver um problema clássico de força de vendas B2B: planejamento de rotas mais eficiente.
+                  O resultado é ganho direto de produtividade e economia operacional, além de um exemplo forte de aplicação 
+                  prática de Data Science e automação em um contexto corporativo real.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About 2 Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-12 mb-3 mb-md-0">
+          <div class="widget">
+            <p class="widget-heading"><b>Matheus Dias</b> <span class="normal-text"><i>Analista de Negócios | Cientista de Dados</i></span></br>
+              diassmatheus@outlook.com
+            </p>
+            <p class="mb-0">
+              <a href="https://diassmatheus.github.io/" class="btn-learn-more">Portfolio Completo</a>
+            </p>
+            <br>
+            <br>
+            <ul class="list-unstyled social-icons light mb-3">
+              <li>
+                <a href="#"><span class="bi bi-linkedin"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="bi bi-github"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="bi bi-medium"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="copyright d-flex flex-column flex-md-row align-items-center justify-content-md-between">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Active.</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
